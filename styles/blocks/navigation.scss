@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px 112px;
+
+    &__name {
+        font-family: "Cinzel Decorative";
+        color: white;
+        width: 64px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    &__icon {
+        height: 24px;
+
+        &--margin {
+            margin-left: 24px;
+        }
+    }
+}
