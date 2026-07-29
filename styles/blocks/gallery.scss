@@ -1,0 +1,23 @@
+@use '../utils/variables.scss' as *;
+
+.gallery {
+	&__box {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__name {
+		color: $main-accent;
+		font-family: 'Cinzel';
+		font-weight: 700;
+		font-style: Bold;
+		font-size: 16px;
+		line-height: 27px;
+        margin-top: 24px;
+	}
+	&__date {
+		font-family: 'Cinzel';
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 27px;
+	}
+}

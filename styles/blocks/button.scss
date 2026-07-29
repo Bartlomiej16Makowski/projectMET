@@ -1,0 +1,14 @@
+@use '../utils/variables.scss' as *;
+
+.button {
+	background-color: $main-accent;
+	color: white;
+	border: none;
+	height: 56px;
+	width: 280px;
+	font-family: 'Cinzel';
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 16px;
+	text-align: center;
+}
