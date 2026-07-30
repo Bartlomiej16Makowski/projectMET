@@ -131,31 +131,47 @@
         <section class="contact content__contact">
             <h2 class="contact__title">contact us</h2>
             <div class="contact__box">
-                <article class="address contact__address">
+                <address class="address contact__address">
                     <h3 class="address__headline">The Met Fifth Avenue</h3>
-                    <p class="address__name">Phone</p>
+                    <h4 class="address__name">Phone</h4>
                     <p class="address__data">+1 212-535-7710</p>
-                    <p class="address__name address__name--margin">Address</p>
+                    <h4 class="address__name address__name--margin">Address</h4>
                     <p class="address__data">1000 Fifth Avenue
                         <br>
                         New York, NY 10028
                     </p>
-                </article>
-                <article class="address contact__address">
+                </address>
+                <address class="address contact__address">
                     <h3 class="address__headline">The Met Cloisters</h3>
-                    <p class="address__name">Phone</p>
+                    <h4 class="address__name">Phone</h4>
                     <p class="address__data">+1 212-923-3700</p>
-                    <p class="address__name address__name--margin">Address</p>
+                    <h4 class="address__name address__name--margin">Address</h4>
                     <p class="address__data">99 Margaret Corbin Drive
                         <br>
                         Fort Tryon Park
                         <br>
                         New York, NY 10040
                     </p>
-                </article>
+                </address>
             </div>
+            <form class="form contact__form">
+                <div class="form__item">
+                    <label for="name" class="form__label">name</label>
+                    <input id="name" class="form__input" type="text" placeholder="Name">
+                </div>
+                <div class="form__item">
+                    <label for="email" class="form__label">email</label>
+                    <input id="email" class="form__input" type="email" placeholder="Email">
+                </div>
+                <div class="form__item">
+                    <label for="message" class="form__label">message</label>
+                    <textarea id="message" class="form__textarea" placeholder="Message"></textarea>
+                </div>
+                <button class="button">send</button>
+            </form>
         </section>
     </main>
+    <footer class="footer"></footer>
 </body>
 
 </html>
