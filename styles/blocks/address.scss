@@ -1,0 +1,30 @@
+.address {
+
+	&__headline {
+		font-family: 'Cinzel';
+		font-weight: 700;
+		font-style: Bold;
+		font-size: 16px;
+        margin-bottom: 24px;
+	}
+
+	&__name {
+		font-family: 'Cinzel';
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 27px;
+
+        &--margin {
+            margin-top: 16px;
+        }
+	}
+
+	&__data {
+		font-family: 'Cinzel';
+		font-weight: 700;
+		font-style: Bold;
+		font-size: 16px;
+        margin-top: 4px;
+		
+	}
+}
