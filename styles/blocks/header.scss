@@ -4,8 +4,11 @@
     background-image: url('/styles/src/headerbgsmall.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 25px 20px;
+    
 
+    
     &__title {
-        margin: 0 auto;
+        margin: 112px auto 0;
     }
 }

@@ -1,22 +1,26 @@
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 20px 112px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-    &__name {
-        font-family: "Cinzel";
-        color: white;
-        width: 64px;
-        font-size: 32px;
-        font-weight: bold;
-    }
 
-    &__icon {
-        height: 24px;
+	&__name {
+		display: inline-block;
+		font-family: 'Cinzel';
+		color: white;
+		width: 64px;
+		font-size: 32px;
+		font-weight: bold;
+	}
 
-        &--margin {
-            margin-left: 24px;
-        }
-    }
+	&__icon {
+		height: 24px;
+
+		&--hidden {
+			opacity: 0;
+		}
+		&--margin {
+			margin-left: 24px;
+		}
+	}
 }
