@@ -1,4 +1,5 @@
 .view {
+
 	&__title {
 		font-family: 'Cinzel';
 		font-weight: 700;
@@ -6,6 +7,10 @@
 		font-size: 32px;
 		text-align: center;
         margin-bottom: 8px;
+
+		@media (min-width: 744px) {
+			font-size: 48px;
+		}
 	}
 	&__description {
 		font-family: 'Cinzel';
@@ -13,6 +18,11 @@
 		font-size: 16px;
 		line-height: 27px;
 		text-align: center;
+
+				@media (min-width: 744px) {
+			width: 392px;
+			margin: 0 auto;
+		}
 	}
 	&__main {
 		margin: 48px 0 40px 0;
@@ -23,7 +33,9 @@
 	// &__gallery {
 
 	// }
-	// &__button {
+	&__button {
+		display: block;
+		margin: 0 auto;
 
-	// }
+	}
 }
