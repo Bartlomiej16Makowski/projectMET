@@ -5,18 +5,36 @@
 
     &__hours {
         padding: $section-padding;
+
+        @media (min-width: 744px) {
+            padding: $section-padding-medium;
+        }
     }
 
     &__view {
         padding: $section-padding;
+        
+        @media (min-width: 744px) {
+            padding: $section-padding-medium;
+        }
     }
 
     &__online {
         padding: $section-padding;
+        
+        @media (min-width: 744px) {
+            padding: $section-padding-medium;
+        }
     }
 
     &__contact {
         padding: $section-padding;
         margin-bottom: 100px;
+
+        
+        @media (min-width: 744px) {
+            padding: $section-padding-medium;
+            margin-bottom: 0;
+        }
     }
 }

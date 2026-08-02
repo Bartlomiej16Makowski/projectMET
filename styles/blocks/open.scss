@@ -1,4 +1,8 @@
 .open {
+
+	@media (min-width: 744px) {
+		width: 288px;
+	}
 	&__headline {
 		font-family: 'Cinzel';
 		font-weight: 700;

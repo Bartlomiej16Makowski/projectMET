@@ -1,14 +1,22 @@
 .header {
-    min-height: 100vh;
-    box-sizing: border-box;
-    background-image: url('/styles/src/headerbgsmall.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 25px 20px;
-    
+	min-height: 100vh;
+	box-sizing: border-box;
+	background-image: url('/styles/src/headerbgsmall.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 25px 20px;
 
-    
-    &__title {
-        margin: 112px auto 0;
-    }
+	@media (min-width: 744px) {
+		padding: 50px 70px;
+		background-image: url('/styles/src/headerbgmedium.png');
+		background-position: center;
+	}
+
+	&__title {
+		margin: 112px auto 0;
+
+		@media (min-width: 744px) {
+				margin: 145px auto 0;
+		}
+	}
 }
