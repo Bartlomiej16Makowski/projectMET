@@ -15,4 +15,12 @@
 	&__form {
 		margin-top: 48px;
 	}
+
+	&__frame {
+		@media (min-width: 744px) {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
 }

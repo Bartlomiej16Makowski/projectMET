@@ -1,13 +1,22 @@
-.online {
-   &__title {
-    font-family: "Cinzel";
-font-weight: 700;
-font-style: Bold;
-font-size: 32px;
-line-height: 32px;
-letter-spacing: -1.5px;
-text-align: center;
-margin-bottom: 40px;
+@use '../utils/variables.scss' as *;
 
-   }
+.online {
+
+
+	&__title {
+		font-family: 'Cinzel';
+		font-weight: 700;
+		font-style: Bold;
+		font-size: 32px;
+		line-height: 32px;
+		letter-spacing: -1.5px;
+		text-align: center;
+		margin-bottom: 40px;
+
+		@media (min-width: 744px) {
+			font-size: $title-medium;
+			line-height: $title-medium;
+         margin-bottom: 48px;
+		}
+	}
 }

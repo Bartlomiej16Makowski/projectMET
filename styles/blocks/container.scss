@@ -1,11 +1,17 @@
 @use '../utils/variables.scss' as *;
 
 .container {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
 
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    
+	&__box {
+		@media (min-width: 744px) {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
 	&__title {
 		font-family: 'Cinzel';
 		font-weight: 700;

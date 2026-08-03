@@ -1,3 +1,5 @@
+@use '../utils/variables.scss' as *;
+
 .view {
 
 	&__title {
@@ -9,7 +11,7 @@
         margin-bottom: 8px;
 
 		@media (min-width: 744px) {
-			font-size: 48px;
+			font-size: $title-medium;
 		}
 	}
 	&__description {

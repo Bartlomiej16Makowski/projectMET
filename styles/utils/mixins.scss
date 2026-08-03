@@ -16,6 +16,7 @@
 
 @mixin input {
 	background-color: $input-accent;
+	box-sizing: border-box;
 	font-family: 'Cinzel';
 	font-weight: 400;
 	font-size: 14px;

@@ -23,7 +23,7 @@
         padding: $section-padding;
         
         @media (min-width: 744px) {
-            padding: $section-padding-medium;
+            padding: 144px 172px 0 172px;
         }
     }
 
@@ -34,7 +34,7 @@
         
         @media (min-width: 744px) {
             padding: $section-padding-medium;
-            margin-bottom: 0;
+            margin-bottom: 156px;
         }
     }
 }

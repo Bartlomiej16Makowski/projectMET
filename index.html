@@ -132,7 +132,8 @@
             <div class="view__main">
                 <article class="gallery view__gallery">
                     <div class="gallery__box">
-                        <img class="gallery__img gallery__img--position gallery__img--big" src="/styles/src/mpic1.png" alt="gallery">
+                        <img class="gallery__img gallery__img--position gallery__img--big" src="/styles/src/mpic1.png"
+                            alt="gallery">
                         <img class="gallery__img" src="/styles/src/mpic2.png" alt="artist">
                     </div>
                     <p class="gallery__name">A New Look at Old Masters</p>
@@ -142,7 +143,8 @@
                     <div class="gallery__box">
                         <img class="gallery__img gallery__img--small" src="/styles/src/mpic3.png" alt="buddha">
                         <img class="gallery__img gallery__img--small" src="/styles/src/mpic4.png" alt="triangle">
-                        <img class="gallery__img gallery__img--small gallery__img--hidden" src="/styles/src/mpic4.png" alt="carpet">
+                        <img class="gallery__img gallery__img--small gallery__img--hidden" src="/styles/src/mpic4.png"
+                            alt="carpet">
                     </div>
                     <p class="gallery__name">Bodhisattvas of Wisdom, Compassion, and Power</p>
                     <p class="gallery__date">March 27, 2021 – October 30, 2022</p>
@@ -150,7 +152,8 @@
                 <article class="gallery view__gallery">
                     <div class="gallery__box">
                         <img class="gallery__img" src="/styles/src/mpic5.png" alt="watch">
-                        <img class="gallery__img gallery__img--position gallery__img--big" src="styles/src/mpic6.png" alt="figure">
+                        <img class="gallery__img gallery__img--position gallery__img--big" src="styles/src/mpic6.png"
+                            alt="figure">
                     </div>
                     <p class="gallery__name">Inspiring Walt Disney: The Animation of French Decorative Arts</p>
                     <p class="gallery__date">December 10, 2021 – March 6, 2022</p>
@@ -183,61 +186,63 @@
         </section>
         <section class="contact content__contact" id="contact">
             <h2 class="contact__title">contact us</h2>
-            <div class="contact__box">
-                <address class="address contact__address">
-                    <h3 class="address__headline">The Met Fifth Avenue</h3>
-                    <h4 class="address__name">Phone</h4>
-                    <p class="address__data">
-                        <a class="address__tel" href="tel:12125357710">
-                            +1 212-535-7710
-                        </a>
-                    </p>
-                    <h4 class="address__name address__name--margin">Address</h4>
-                    <p class="address__data">
-                        <a class="address__anchor"
-                            href="https://www.google.com/maps/dir/?api=1&destination=1000+Fifth+Avenue+New+York+NY+10028"
-                            target="_blank" rel="noopener noreferrer">
-                            1000 Fifth Avenue
-                            <br>
-                            New York, NY 10028
-                        </a>
-                    </p>
-                </address>
-                <address class="address contact__address">
-                    <h3 class="address__headline">The Met Cloisters</h3>
-                    <h4 class="address__name">Phone</h4>
-                    <p class="address__data">
-                        <a class="address__tel" href="tel:+12129233700">
-                            +1 212-923-3700
-                        </a>
-                    </p>
-                    <h4 class="address__name address__name--margin">Address</h4>
-                    <p class="address__data">
-                        <a class="address__anchor"
-                            href="https://www.google.com/maps/dir/?api=1&destination=99+Margaret+Corbin+Drive+Fort+Tryon+Park+New+York+NY+10040"
-                            target="_blank" rel="noopener noreferrer">
-                            99 Margaret Corbin Drive<br>
-                            Fort Tryon Park<br>
-                            New York, NY 10040
-                        </a>
-                    </p>
-                </address>
+            <div class="contact__frame">
+                <div class="contact__box">
+                    <address class="address contact__address">
+                        <h3 class="address__headline">The Met Fifth Avenue</h3>
+                        <h4 class="address__name">Phone</h4>
+                        <p class="address__data">
+                            <a class="address__tel" href="tel:12125357710">
+                                +1 212-535-7710
+                            </a>
+                        </p>
+                        <h4 class="address__name address__name--margin">Address</h4>
+                        <p class="address__data">
+                            <a class="address__anchor"
+                                href="https://www.google.com/maps/dir/?api=1&destination=1000+Fifth+Avenue+New+York+NY+10028"
+                                target="_blank" rel="noopener noreferrer">
+                                1000 Fifth Avenue
+                                <br>
+                                New York, NY 10028
+                            </a>
+                        </p>
+                    </address>
+                    <address class="address contact__address">
+                        <h3 class="address__headline">The Met Cloisters</h3>
+                        <h4 class="address__name">Phone</h4>
+                        <p class="address__data">
+                            <a class="address__tel" href="tel:+12129233700">
+                                +1 212-923-3700
+                            </a>
+                        </p>
+                        <h4 class="address__name address__name--margin">Address</h4>
+                        <p class="address__data">
+                            <a class="address__anchor"
+                                href="https://www.google.com/maps/dir/?api=1&destination=99+Margaret+Corbin+Drive+Fort+Tryon+Park+New+York+NY+10040"
+                                target="_blank" rel="noopener noreferrer">
+                                99 Margaret Corbin Drive<br>
+                                Fort Tryon Park<br>
+                                New York, NY 10040
+                            </a>
+                        </p>
+                    </address>
+                </div>
+                <form class="form contact__form" id="myform" action="http://localhost:3000/comments" method="POST">
+                    <div class="form__item">
+                        <label for="name" class="form__label">name</label>
+                        <input id="name" class="form__input" type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form__item">
+                        <label for="email" class="form__label">email</label>
+                        <input id="email" class="form__input" type="email" placeholder="Email" required minlength="6">
+                    </div>
+                    <div class="form__item">
+                        <label for="message" class="form__label">message</label>
+                        <textarea id="message" class="form__textarea" placeholder="Message" required></textarea>
+                    </div>
+                    <button class="button">send</button>
+                </form>
             </div>
-            <form class="form contact__form" id="myform" action="http://localhost:3000/comments" method="POST">
-                <div class="form__item">
-                    <label for="name" class="form__label">name</label>
-                    <input id="name" class="form__input" type="text" placeholder="Name" required>
-                </div>
-                <div class="form__item">
-                    <label for="email" class="form__label">email</label>
-                    <input id="email" class="form__input" type="email" placeholder="Email" required minlength="6">
-                </div>
-                <div class="form__item">
-                    <label for="message" class="form__label">message</label>
-                    <textarea id="message" class="form__textarea" placeholder="Message" required></textarea>
-                </div>
-                <button class="button">send</button>
-            </form>
         </section>
     </main>
     <footer class="footer"></footer>
