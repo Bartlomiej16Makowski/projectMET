@@ -1,3 +1,5 @@
+@use '../utils/mixins.scss' as *;
+
 .header {
 	min-height: 100vh;
 	box-sizing: border-box;
@@ -5,6 +7,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 25px 20px;
+	
+
+	&__navigation {
+		grid-column: 1/13;
+	}
 
 	@media (min-width: 744px) {
 		padding: 50px 70px;
@@ -13,10 +20,15 @@
 	}
 
 	&__title {
+		grid-column: 1/13;
 		margin: 112px auto 0;
 
 		@media (min-width: 744px) {
-				margin: 145px auto 0;
+			margin: 145px auto 0;
 		}
+	}
+
+	@media (min-width: 1260px) {
+		@include grid;
 	}
 }
