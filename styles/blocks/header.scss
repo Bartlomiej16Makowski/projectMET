@@ -7,7 +7,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 25px 20px;
-	
 
 	&__navigation {
 		grid-column: 1/13;
@@ -25,6 +24,10 @@
 
 		@media (min-width: 744px) {
 			margin: 145px auto 0;
+		}
+
+		@media (min-width: 1260px) {
+			margin: 10px auto 0;
 		}
 	}
 

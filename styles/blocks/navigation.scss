@@ -12,7 +12,6 @@
 
 	&__box {
 		display: none;
-		background-color: blue;
 		transition: background-color 0.3s ease;
 
 		font-family: 'Cinzel';
@@ -20,6 +19,13 @@
 		font-style: Bold;
 		font-size: 16px;
 		line-height: 27px;
+		color: white;
+		
+	}
+
+	&__data {
+		color: white;
+		text-decoration: none;
 	}
 
 	&__name {
@@ -55,7 +61,6 @@
 		// @include grid;
 
 		&:has(.navigation__icon:hover) &__box {
-			background-color: red;
 			display: block;
 		}
 

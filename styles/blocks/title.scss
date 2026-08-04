@@ -1,5 +1,5 @@
 .title {
-	font-family: "Cinzel";
+	font-family: 'Cinzel';
 	font-weight: 700;
 	font-style: Bold;
 	font-size: 40px;
@@ -8,5 +8,13 @@
 	text-align: center;
 
 	color: white;
-	width: 280px;
+
+	@media (min-width: 744px) {
+		font-size: 64px;
+		line-height: 64px;
+	}
+	@media (min-width: 1260px) {
+		font-size: 80px;
+		line-height: 80px;
+	}
 }
