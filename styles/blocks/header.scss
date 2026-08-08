@@ -35,6 +35,7 @@
 	@media (min-width: 1260px) {
 		@include grid;
 		grid-template-rows: 110px 1fr;
+		padding: 50px 120px;
 		
 	}
 }
