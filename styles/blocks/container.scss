@@ -30,4 +30,13 @@
 		line-height: 27px;
 		text-align: center;
 	}
+
+	@media (min-width: 1260px) {
+		display: flex;
+		flex-direction: row;
+
+		&__img {
+			height: 320px;
+		}
+	}
 }

@@ -27,4 +27,8 @@
 	&:active {
 		background-color: #EB343D;
 	}
+
+	@media (min-width: 1260px) {
+		width: 100%;
+	}
 }

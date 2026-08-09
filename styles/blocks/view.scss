@@ -55,15 +55,9 @@
 		@include grid;
 		grid-template-rows: repeat(6, auto);
 
+		&__button {
+			grid-column: 5/9;
+		}
 
-
-			&__main {
-		// margin: 48px 0 40px 0;
-		// display: flex;
-		// flex-direction: column;
-		// gap: 48px;
-		// grid-row: 3/6;
-		// grid-column: 1/13;
-	}
 	}
 }
