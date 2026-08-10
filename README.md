@@ -9,7 +9,7 @@ In this task, you will learn how to implement a landing page. To do that:
   - [B&O](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6817-212&t=ZTV6Gl8NzaWkJ4FK-0)
   - [Nothing](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6802-139&t=L7eKz5YKLN0m5WxR-0)
 - watch the lesson videos and implement your page blocks similarly to the videos;
-- zmiany
+- new
 - **DON'T** try to do it `Pixel Perfect` - implement it the most `simple` way so it looks similar;
 - when you finish the first block of your page deploy it and create a Pull Request with a - [DEMO LINK](https://Bartlomiej16Makowski.github.io/miamimy/)
 - after each next block do the same (add, commit and push the changes, and deploy the updated demo;
