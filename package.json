@@ -1,0 +1,25 @@
+{
+	"name": "projectmet",
+	"version": "1.0.0",
+	"description": "In this task, you will learn how to implement a landing page. To do that:",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy": "gh-pages -d ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Bartlomiej16Makowski/projectMET.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/Bartlomiej16Makowski/projectMET/issues"
+	},
+	"homepage": "https://github.com/Bartlomiej16Makowski/projectMET#readme",
+	"devDependencies": {
+		"gh-pages": "^6.3.0"
+	}
+}
